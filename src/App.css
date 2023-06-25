@@ -122,3 +122,9 @@ body::before {
   line-height: 2.2;
   text-align: justify;
 }
+
+.noPhotoP {
+  font-size: 1.3vw;
+  padding: 2vw;
+  text-align: center;
+}

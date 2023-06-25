@@ -50,7 +50,7 @@ const Fetch = () => {
         <input type="date" value={myDate} onChange={handleInput} />
       </div>
       {showNoPhotoMessage ? (
-        <p>Por ahora el telescopio no nos permite ver hacia el futuro 🪐 <br /> ¡Prueba con una fecha anterior al día de hoy!</p>
+        <p className='noPhotoP'>Por ahora el telescopio no nos permite ver hacia el futuro 🪐 <br /> ¡Prueba con una fecha anterior al día de hoy!</p>
       ) : (
         apodData && <Figure {...apodData} />
       )}
