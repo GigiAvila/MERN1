@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import "./App.css";
 import FetchMars from './components/FetchMars';
 import Fetch from './components/Fetch';
 
@@ -11,7 +11,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className='App'>
       <h1>{`Welcome to NASA {APIs}`}</h1>
       <select value={selectedOption} onChange={handleOptionChange}>
         <option value="">Seleccione una opción</option>

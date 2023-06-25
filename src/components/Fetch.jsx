@@ -46,7 +46,7 @@ const Fetch = () => {
 
   return (
     <>
-      <div>
+      <div className='InputDateDiv'>
         <input type="date" value={myDate} onChange={handleInput} />
       </div>
       {showNoPhotoMessage ? (
